@@ -1,0 +1,14 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT"
+    }
+  ],
+  "name": "ApplaudoOrg",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0"
+}

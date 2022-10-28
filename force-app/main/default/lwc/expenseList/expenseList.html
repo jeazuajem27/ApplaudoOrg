@@ -1,0 +1,16 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon class="slds-m-right_x-small" icon-name="standard:account" size="small"></lightning-icon>
+            {AccountList}
+        </h3>
+
+
+        <div class="slds-m-top_x-small slds-box outerDesign">
+            <div class="slds-scrollable_y" style="height:10rem;width:75rem">
+                <lightning-datatable key-field="id" data={allExpenses} columns={columns} hide-checkbox-column="true">
+                </lightning-datatable>
+            </div>
+        </div>
+    </lightning-card>
+</template>
